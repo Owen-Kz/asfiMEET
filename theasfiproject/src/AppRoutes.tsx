@@ -105,7 +105,7 @@ function AppRoutes() {
       <AuthRoute exact path={'/join'}>
         <Join />
       </AuthRoute>
-      <AuthRoute exact path={'/create'}>
+      <AuthRoute exact path={'/v6/create'}>
         <Create />
       </AuthRoute>
       {RenderCustomRoutes()}
