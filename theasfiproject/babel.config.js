@@ -16,7 +16,7 @@ const { getCustomizationApiPath } =  require('./customization.config');
 module.exports = {
   presets: ['module:metro-react-native-babel-preset'],
   plugins: [
-    ['transform-define', configVars],
+    ['babel-plugin-transform-define', configVars],
     [
       require.resolve('babel-plugin-module-resolver'),
       {
